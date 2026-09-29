@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PlantCare Expert</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header><a class="brand" href="/" aria-label="PlantCare Expert home"><span class="brand-icon">↗</span> PlantCare <span>Expert</span></a><span class="header-note">Indoor plant care · Python expert system</span></header>
+<main>
+  <section class="intro"><div><p class="eyebrow">A LITTLE OBSERVATION. BETTER CARE.</p><h1>Understand what your<br>plant is telling you.</h1><p class="lead">Check the symptoms. Explore possible causes.<br>See the reasoning behind every recommendation.</p></div><div class="plant-art" aria-hidden="true"><div class="stem"></div><i class="leaf l1"></i><i class="leaf l2"></i><i class="leaf l3"></i><i class="leaf l4"></i><div class="pot"></div><div class="ground"></div></div></section>
+  <nav class="view-tabs" aria-label="Main views"><button class="active" id="consult-tab" data-view="consult">Plant consultation</button><button id="knowledge-tab" data-view="knowledge">20 rules and sources</button><span>No account · No uploaded photos</span></nav>
+  <div id="loading" role="status">Loading your consultation…</div>
+  <section id="consult" hidden>
+    <div class="workspace">
+      <aside><p class="eyebrow">YOUR OBSERVATIONS</p><div id="steps"></div><div class="progress-box"><strong id="progress-text">0 of 28 answered</strong><progress id="progress" value="0" max="28"></progress><p>Not sure is a valid answer.<br>Only report what you can observe.</p></div><button class="text-button" id="reset">Start again</button></aside>
+      <div class="form-panel"><div class="panel-heading"><div><span class="step-label" id="step-label"></span><h2 id="group-title"></h2></div><span class="small-badge">Indoor potted plants</span></div><p id="group-description" class="muted"></p><form id="questions" aria-label="Plant observations"></form><div class="form-actions"><button id="previous" class="secondary">Previous</button><button id="next" class="secondary">Next section →</button><button id="analyse" class="primary">Analyse my plant →</button></div><p class="scope-note">General care guidance. Species have different needs; symptoms alone do not confirm a disease.</p></div>
+    </div>
+    <section id="results" hidden aria-live="polite"><div class="results-heading"><div><p class="eyebrow">YOUR CONSULTATION</p><h2 id="result-title">What the observations suggest</h2></div><button id="download" class="secondary">Download consultation</button></div><p id="result-message"></p><div id="result-cards"></div><details class="trace-box"><summary>See the reasoning step by step</summary><div id="trace"></div></details></section>
+  </section>
+  <section id="knowledge" hidden><p class="eyebrow">KNOWLEDGE BASE</p><h2>Every recommendation has a rule.</h2><p class="muted">These rules translate university horticultural guidance into possible findings and care actions. R20 uses a finding produced by another rule.</p><div id="rules"></div><h2 class="sources-title">Reference documents</h2><div id="sources"></div></section>
+  <p id="error" class="error" role="alert" hidden></p>
+</main><footer>PlantCare Expert <span>20 source-linked rules · Explanations you can inspect</span></footer><script src="/app.js"></script>
+</body></html>

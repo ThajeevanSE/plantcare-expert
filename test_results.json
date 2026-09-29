@@ -1,0 +1,495 @@
+{
+  "run_at": "2026-09-28T09:24:04.445728+00:00",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "results": [
+    {
+      "id": "T01",
+      "name": "Dry mix and wilting",
+      "inputs": {
+        "soil": "dry",
+        "wilting": "yes"
+      },
+      "expected": [
+        "R01"
+      ],
+      "actual": [
+        "R01"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T02",
+      "name": "Wet mix and yellowing",
+      "inputs": {
+        "soil": "wet",
+        "yellowing": "yes"
+      },
+      "expected": [
+        "R02"
+      ],
+      "actual": [
+        "R02"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T03",
+      "name": "Water retained in saucer",
+      "inputs": {
+        "standing_water": "yes"
+      },
+      "expected": [
+        "R03"
+      ],
+      "actual": [
+        "R03"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T04",
+      "name": "Salt crust and brown tips",
+      "inputs": {
+        "salt_crust": "yes",
+        "brown_tips": "yes"
+      },
+      "expected": [
+        "R04"
+      ],
+      "actual": [
+        "R04"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T05",
+      "name": "Chemically softened water",
+      "inputs": {
+        "softened_water": "yes"
+      },
+      "expected": [
+        "R05"
+      ],
+      "actual": [
+        "R05"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T06",
+      "name": "Stretched growth in dim light",
+      "inputs": {
+        "stretched": "yes",
+        "low_light": "yes"
+      },
+      "expected": [
+        "R06"
+      ],
+      "actual": [
+        "R06"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T07",
+      "name": "Bleaching after stronger sun",
+      "inputs": {
+        "bleached": "yes",
+        "stronger_sun": "yes"
+      },
+      "expected": [
+        "R07"
+      ],
+      "actual": [
+        "R07"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T08",
+      "name": "Blackening after cold exposure",
+      "inputs": {
+        "blackening": "yes",
+        "cold_exposure": "yes"
+      },
+      "expected": [
+        "R08"
+      ],
+      "actual": [
+        "R08"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T09",
+      "name": "Grey fuzzy growth",
+      "inputs": {
+        "gray_fuzz": "yes"
+      },
+      "expected": [
+        "R09"
+      ],
+      "actual": [
+        "R09"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T10",
+      "name": "Wilting and dark soft roots",
+      "inputs": {
+        "wilting": "yes",
+        "dark_soft_roots": "yes"
+      },
+      "expected": [
+        "R10"
+      ],
+      "actual": [
+        "R10"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T11",
+      "name": "White powdery leaf growth",
+      "inputs": {
+        "white_powder": "yes"
+      },
+      "expected": [
+        "R11"
+      ],
+      "actual": [
+        "R11"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T12",
+      "name": "Brown spots with target rings",
+      "inputs": {
+        "brown_spots": "yes",
+        "target_rings": "yes"
+      },
+      "expected": [
+        "R12"
+      ],
+      "actual": [
+        "R12"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T13",
+      "name": "Water-soaked spots with ooze",
+      "inputs": {
+        "water_soaked": "yes",
+        "spot_ooze": "yes"
+      },
+      "expected": [
+        "R13"
+      ],
+      "actual": [
+        "R13"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T14",
+      "name": "Pear-shaped insects",
+      "inputs": {
+        "pear_insects": "yes"
+      },
+      "expected": [
+        "R14",
+        "R20"
+      ],
+      "actual": [
+        "R14",
+        "R20"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 2
+    },
+    {
+      "id": "T15",
+      "name": "Cottony insects",
+      "inputs": {
+        "cotton_insects": "yes"
+      },
+      "expected": [
+        "R15",
+        "R20"
+      ],
+      "actual": [
+        "R15",
+        "R20"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 2
+    },
+    {
+      "id": "T16",
+      "name": "Speckles with fine webbing",
+      "inputs": {
+        "pale_speckles": "yes",
+        "fine_webbing": "yes"
+      },
+      "expected": [
+        "R16",
+        "R20"
+      ],
+      "actual": [
+        "R16",
+        "R20"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 2
+    },
+    {
+      "id": "T17",
+      "name": "Attached shell-like bumps",
+      "inputs": {
+        "shell_bumps": "yes"
+      },
+      "expected": [
+        "R17",
+        "R20"
+      ],
+      "actual": [
+        "R17",
+        "R20"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 2
+    },
+    {
+      "id": "T18",
+      "name": "Disturbed tiny white flies",
+      "inputs": {
+        "white_flies": "yes"
+      },
+      "expected": [
+        "R18",
+        "R20"
+      ],
+      "actual": [
+        "R18",
+        "R20"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 2
+    },
+    {
+      "id": "T19",
+      "name": "Dark flies above wet soil",
+      "inputs": {
+        "dark_flies": "yes",
+        "soil": "wet"
+      },
+      "expected": [
+        "R19",
+        "R20"
+      ],
+      "actual": [
+        "R19",
+        "R20"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 2
+    },
+    {
+      "id": "T20",
+      "name": "Two pests share one isolation action",
+      "inputs": {
+        "pear_insects": "yes",
+        "cotton_insects": "yes"
+      },
+      "expected": [
+        "R14",
+        "R15",
+        "R20"
+      ],
+      "actual": [
+        "R14",
+        "R15",
+        "R20"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 2
+    },
+    {
+      "id": "T21",
+      "name": "All answers omitted",
+      "inputs": {},
+      "expected": [],
+      "actual": [],
+      "pass": true,
+      "status": "insufficient_information",
+      "rounds": 0
+    },
+    {
+      "id": "T22",
+      "name": "Webbing with speckles unknown",
+      "inputs": {
+        "fine_webbing": "yes",
+        "pale_speckles": "unknown"
+      },
+      "expected": [],
+      "actual": [],
+      "pass": true,
+      "status": "no_match",
+      "rounds": 0
+    },
+    {
+      "id": "T23",
+      "name": "Webbing with speckles absent",
+      "inputs": {
+        "fine_webbing": "yes",
+        "pale_speckles": "no"
+      },
+      "expected": [],
+      "actual": [],
+      "pass": true,
+      "status": "no_match",
+      "rounds": 0
+    },
+    {
+      "id": "T24",
+      "name": "Wilting but soil not checked",
+      "inputs": {
+        "wilting": "yes"
+      },
+      "expected": [],
+      "actual": [],
+      "pass": true,
+      "status": "no_match",
+      "rounds": 0
+    },
+    {
+      "id": "T25",
+      "name": "Wet mix and wilt OR branch",
+      "inputs": {
+        "soil": "wet",
+        "wilting": "yes"
+      },
+      "expected": [
+        "R02"
+      ],
+      "actual": [
+        "R02"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T26",
+      "name": "Black dots OR branch",
+      "inputs": {
+        "brown_spots": "yes",
+        "black_dots": "yes"
+      },
+      "expected": [
+        "R12"
+      ],
+      "actual": [
+        "R12"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    },
+    {
+      "id": "T27",
+      "name": "Brown spots alone",
+      "inputs": {
+        "brown_spots": "yes"
+      },
+      "expected": [],
+      "actual": [],
+      "pass": true,
+      "status": "no_match",
+      "rounds": 0
+    },
+    {
+      "id": "T28",
+      "name": "Salt crust without brown tips",
+      "inputs": {
+        "salt_crust": "yes",
+        "brown_tips": "no"
+      },
+      "expected": [],
+      "actual": [],
+      "pass": true,
+      "status": "no_match",
+      "rounds": 0
+    },
+    {
+      "id": "T29",
+      "name": "Dark flies but dry mix",
+      "inputs": {
+        "dark_flies": "yes",
+        "soil": "dry"
+      },
+      "expected": [],
+      "actual": [],
+      "pass": true,
+      "status": "no_match",
+      "rounds": 0
+    },
+    {
+      "id": "T30",
+      "name": "Wet stress and root rot overlap",
+      "inputs": {
+        "soil": "wet",
+        "wilting": "yes",
+        "dark_soft_roots": "yes"
+      },
+      "expected": [
+        "R02",
+        "R10"
+      ],
+      "actual": [
+        "R02",
+        "R10"
+      ],
+      "pass": true,
+      "status": "matched",
+      "rounds": 1
+    }
+  ]
+}

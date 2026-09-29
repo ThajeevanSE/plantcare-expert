@@ -1,0 +1,14 @@
+{
+  "status": "not_executed",
+  "reason": "The available browser could not access the local Python server. No live browser test or screenshot is claimed.",
+  "manual_checks": [
+    "Open app in a browser",
+    "Navigate all four question sections",
+    "Set pale speckles and fine webbing to Yes; expect R16 and R20",
+    "Expand reasoning trace; expect rounds 1 and 2",
+    "Change a selected answer; old result should disappear",
+    "Open rule catalogue; confirm 20 rules and source links",
+    "Download consultation JSON",
+    "Start again; confirm answers reset"
+  ]
+}
